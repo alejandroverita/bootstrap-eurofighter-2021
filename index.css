@@ -1,5 +1,6 @@
 :root {
     --main-color-brand: #97c93e;
+    --second-color-brand: #82ad36;
     --carousel-bg-color: rgba(0, 0, 0, 0.5);
     --just-white: #FFF;
 }
@@ -57,6 +58,16 @@
 #carousel-fade .overlay .container,
 #carousel-fade .overlay .row {
     height: 100%;
+}
+
+
+.btn-brand {
+    background-color: var(--main-color-brand);
+    color: var(--just-white);
+}
+
+.btn-brand:hover {
+    background-color: var(--second-color-brand);
 }
 
 

@@ -195,6 +195,39 @@ CSS
 
 ------------
 
+### AGREGANDO BOTONES
+
+[Botones](https://getbootstrap.com/docs/4.1/components/buttons/ "Botones")
+
+HTML
+
+
+```
+ <button type="button"  class="btn btn-brand" data-toggle="modal" data-target="#modalCompra">Comprar</button>
+```
+
+
+
+CSS
+
+
+
+```
+.btn-brand {
+    background-color: var(--main-color-brand);
+    color: var(--just-white);
+}
+
+.btn-brand:hover {
+    background-color: var(--second-color-brand);
+}
+
+```
+
+
+
+------------
+
 
 
 
