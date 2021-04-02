@@ -291,6 +291,26 @@ CSS
 
 ------------
 
+### PASTILLAS DE TEXTO
+
+[Badges](https://getbootstrap.com/docs/5.0/components/badge/ "Badges")
+
+HTML
+
+    <div class="badges">
+        <span class="badge bg-warning">Combat</span>
+        <span class="badge bg-info">Aircraft</span>
+    </div>
+CSS
+
+    .badges{
+        text-align: right;
+    }
+
+
+<img src="https://static.platzi.com/media/user_upload/badges-80335d48-d52b-4386-9eb3-ecdf7de49bf9.jpg" alt="badges">
+------------
+
 
 
 
