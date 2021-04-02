@@ -1,6 +1,7 @@
 :root {
     --main-color-brand: #97c93e;
     --second-color-brand: #82ad36;
+    --secondary-color: #343a40;
     --carousel-bg-color: rgba(0, 0, 0, 0.5);
     --just-white: #FFF;
 }
@@ -84,6 +85,20 @@
 }
 
 /* end badges */
+
+/* place and date */
+
+#place-time {
+    background-color: var(--secondary-color);
+    color: var(--just-white);
+}
+
+
+#place-time img{
+    max-width: 100%;
+}
+
+/* place and date */
 
 #footer{
     background: linear-gradient(90deg, #1c3643, #273b47 25%, #1e5472);
