@@ -21,6 +21,11 @@
     justify-content: space-between
 }
 
+.container-logo .navbar-toggler{
+    height: 40px;
+    margin-right: 10px;
+}
+
 .header__container--button{
     display: flex;
     
