@@ -312,6 +312,87 @@ CSS
 ------------
 
 
+### AGREGANDO UN CONTENEDOR DE ANCHO COMPLETO
+
+[Contenedor fluido](https://getbootstrap.com/docs/5.0/layout/containers/ "Contenedor fluido")
+
+HTML
+
+
+
+```
+   <!-- PLACE AND DATE -->
+
+    <section id="place-time">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12 col-lg-6 pt-3 pl-0 pr-0"> <!-- padding left padding right -->
+            <img src="assets/img/honolulu.jpg" alt="City"></div>
+          
+          <div class="col-12 col-lg-6 pt-4 pb-4 align-self-center">
+            <h2 >
+              HONOLULU OCTUBRE 3021
+            </h2>
+            <p>
+              The Eurofighter Typhoon is the world's most modern swing-role fighter.
+            </p>
+            <a href="#" class="btn btn-outline-light" target="_blank">Conoce más</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PLACE AND DATE --> 
+```
+
+
+CSS
+
+
+
+```
+/* place and date */
+
+#place-time {
+    background-color: var(--secondary-color);
+    color: var(--just-white);
+}
+
+
+#place-time img{
+    max-width: 100%;
+}
+
+/* place and date */
+```
+
+
+------------
+
+### AGREGANDO UN TOOLTIP
+
+[Tooltip](https://getbootstrap.com/docs/5.0/components/tooltips/ "Tooltip")
+
+Un tooltip (también llamada descripción emergente) es una herramienta de ayuda visual, que funciona al situar el cursor sobre algún elemento gráfico, mostrando una ayuda adicional para informar al usuario de la finalidad del elemento sobre el que se encuentra.
+
+Los tooltip son una variación de los globos de ayuda y es un complemento muy usado en programación y diseño, dado que proporcionan información adicional sin necesidad de que el usuario la solicite de forma activa.
+
+**HTML**
+
+	<div class="col text-center">
+	Llena el formulario y participa.
+	Quizá hoy seas tu la nueva estrella de la <abbr data-bs-toggle="tooltip" data-bs-placement="top" title="El arte de crear y organizar sonidos y silencios">música!</abbr>
+	</div>
+
+**En javascript**
+
+	var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+	var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+	  return new bootstrap.Tooltip(tooltipTriggerEl)
+	})
+
+------------
+
 
 
 ------------
