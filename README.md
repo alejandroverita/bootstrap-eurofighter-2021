@@ -393,7 +393,53 @@ Los tooltip son una variación de los globos de ayuda y es un complemento muy us
 
 ------------
 
+### SCROLLSPY: CONOCIENDO LA UBICACIÓN DEL USUARIO EN EL HEADER
 
+[Scrollspy](https://getbootstrap.com/docs/5.0/components/scrollspy/ "Scrollspy")
+
+El codigo del Modal es este:
+
+	<div class="modal fade" id="modalCompra" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		  <div class="modal-dialog modal-dialog-centered">
+			<div class="modal-content">
+			  <div class="modal-header">
+				<h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			  </div>
+			  <div class="modal-body">
+				...
+			  </div>
+			  <div class="modal-footer">
+				<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+				<button type="button" class="btn btn-primary">Save changes</button>
+			  </div>
+			</div>
+		  </div>
+		</div>
+
+Y el codigo de los botones de Comprar Tickets es este:
+
+	<a class="nav-link text-platzi" href="#" data-bs-toggle="modal" data-bs-target="#modalCompra">Comprar Tickets</a>
+
+------------
+
+### FORMULARIO PARA COMPLETAR LA COMPRA
+
+[Input Group](https://getbootstrap.com/docs/5.0/forms/input-group/ "Input Group")
+
+Y el codigo es:
+
+	<div class="input-group mb-3">
+	  <span class="input-group-text" id="basic-addon1">@</span>
+	  <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+	</div>
+
+
+[Alerts](https://getbootstrap.com/docs/5.0/components/alerts/ "Alerts")
+
+	<div class="alert alert-warning" role="alert">
+	  A simple warning alert—check it out!
+	</div>
 
 ------------
 

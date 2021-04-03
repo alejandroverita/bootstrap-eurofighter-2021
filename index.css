@@ -6,7 +6,7 @@
     --just-white: #FFF;
 }
 
-.text-platzi {
+.text-brand {
     color: var(--main-color-brand) !important;
 }
 
@@ -73,9 +73,17 @@
 
 /* cards */
 
+.row-cards{
+    text-align: -webkit-center;
+}
+
 #speakers img {
     height: 348px;
     object-fit: cover;
+}
+
+.card-text {
+    text-align: justify;
 }
 /* end cards */
 
